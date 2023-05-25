@@ -28,7 +28,7 @@ int main() {
             err=abs((b-a)/2);
         }
     } while (err>=(1*(1/exp(-6))));
-    cout<<(x/10000)*1000<<endl;
+    cout<<((x/10000)*10000)<<endl;
 
     return 0;
 }
